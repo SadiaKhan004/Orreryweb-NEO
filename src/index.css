@@ -1,0 +1,41 @@
+/* General Button Styling */
+button {
+  background-color: #7FCFE8;
+  color: #F5F5F5;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold; /* Increased font weight for bold text */
+  font-family: 'Lato', sans-serif; /* Font set to Lato */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 20px; /* Adds space between the input box and buttons */
+}
+
+button:hover {
+  background-color: #6fc0d6;
+}
+
+/* Input Box Styling */
+input[type="text"], input[type="number"] {
+  background-color: #0D1B2A; /* Input box background */
+  color: #F5F5F5; /* Text color inside the input box */
+  border: 2px solid transparent;
+  padding: 8px;
+  font-size: 16px; /* Slightly larger font size */
+  font-weight: bold; /* Increased font weight for input text */
+  font-family: 'Lato', sans-serif; /* Font set to Lato */
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s ease;
+  background-color: #0D1B2A;
+  border: 2px solid #7FCFE8;
+  margin-right: 4px; /* Adds space between the input box and buttons */
+}
+
+/* Optional: Adjust the width of input boxes */
+input[type="text"], input[type="number"] {
+  width: 50%;
+  max-width: 150px;
+}

@@ -1,0 +1,30 @@
+.orrery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .orrery-object {
+    width: 50px; /* Default size */
+    height: 50px; /* Default size */
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .orrery-object.zoomed {
+    transform: scale(2); /* Zoom on click */
+  }
+  
+  .label {
+    position: absolute;
+    top: -30px; /* Position label above the shape */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: black;
+    white-space: nowrap;
+  }
+  
